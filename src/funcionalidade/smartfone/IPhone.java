@@ -8,7 +8,6 @@ public class IPhone implements NavegadorInternet, ReprodutorMusical, AparelhoTel
 
     @Override
     public void exibirPagina(String url) {
-        url = "google.com.br";
         System.out.println("Exibindo " + url);
     }
 
@@ -34,13 +33,11 @@ public class IPhone implements NavegadorInternet, ReprodutorMusical, AparelhoTel
 
     @Override
     public void selecionarMusica(String musica) {
-        musica = "faixa 03";
         System.out.println("Reproduzindo música: " + musica);
     }
 
     @Override
     public void ligar(String numero) {
-        numero = "12345648";
         System.out.println("Ligando para número " + numero);   
     }
 

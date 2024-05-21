@@ -13,7 +13,7 @@ public class Usuario {
         ReprodutorMusical itunes = testing;
         AparelhoTelefonico iphone = testing;
 
-        safari.exibirPagina("google");
+        safari.exibirPagina("google.com.br");
         itunes.tocar();
         iphone.ligar("9995656523");
     }
